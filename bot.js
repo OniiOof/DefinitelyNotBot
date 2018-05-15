@@ -31,8 +31,14 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === prefix +'cutenugget') {
+    	message.reply('https://geegeemagic.deviantart.com/art/cute-chicken-nugget-173177940');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === prefix +'help') {
-    	message.channel.send('**You want help? You get help.**\n **Here are all my commands!** **Do n> before every command!!!**\n ```ping``` **PONG!**\n```bing``` **BONG!**\n ```derpchicken``` **A picture of 4 derpy chicken nuggets!**\n ```And Thats All For Now! Stay tuned for more updates my fellow nugget!```');
+    	message.channel.send('**You want help? You get help.**\n **Here are all my commands!** **Do n> before every command!!!**\n ```ping``` **PONG!**\n```bing``` **BONG!**\n ```derpchicken``` **A picture of 4 derpy chicken nuggets!**\n ```cutenugget``` **A picture of a SUPER CUTE Chicken Nugget!**/n ```And Thats All For Now! Stay tuned for more updates my fellow nugget!```');
     }
 });
 
