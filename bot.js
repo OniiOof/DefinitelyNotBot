@@ -34,7 +34,7 @@ client.on('message', message => {
     if (message.content === prefix +'help') {
     	message.channel.send('**You want help? You get help.**\n **Here are all my commands!** **Do n> before every command!!!**\n ```ping``` **PONG!**\n```bing``` **BONG!**\n ```derpchicken``` **A picture of 4 derpy chicken nuggets!**\n **And Thats All For Now! Stay tuned for more updates my fellow nugget!**');
     }
-
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
